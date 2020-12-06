@@ -38,6 +38,10 @@ print("relative error", deltaf/focal)
 
 ```
 
+    focal 83.15467075038285
+    relative error 0.004051110154739474
+
+
 # 1b
 
 
@@ -65,6 +69,10 @@ error = stdev(focals)/math.sqrt(29)
 print("average focal point over all groups", mean(focals))
 print("approximate relative error", error/mean(focals))
 ```
+
+    average focal point over all groups 83.445875429363
+    approximate relative error 0.002883704636454971
+
 
 # 2
 
@@ -122,5 +130,4 @@ Image(url= "https://cdn.discordapp.com/attachments/385089923176202241/7851555515
 
 
 <img src="https://cdn.discordapp.com/attachments/385089923176202241/785155551570165781/unknown.png"/>
-
 
